@@ -40,6 +40,8 @@ public class TestFixedThreadPool {
 
         pool.execute(t5);
 
+        pool.submit(t5);
+
         //关闭线程池
 
         pool.shutdown();

@@ -7,11 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99ce661-aaa2-4bcb-8829-2fef3d2b56e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/MyThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestCacheThreadPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestFixedThreadPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestScheduledThreadPoolExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestSingleThreadExecutor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/servletDemo/MyServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/newGrammar/DoubleColon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/ExecutorServerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/ThreadPoolDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/CallableDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/ExecutorServerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/TestCachedThreadPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/TestRunnable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hmf/websocket/utils/thread/TestFixedThreadPool.class" afterPath="$PROJECT_DIR$/target/classes/hmf/websocket/utils/thread/TestFixedThreadPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestFixedThreadPool.java" afterPath="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestFixedThreadPool.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,40 +30,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TheadPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TheadPool.java">
+      <file leaf-file-name="DoubleColon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/newGrammar/DoubleColon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="86" column="35" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="86" selection-end-column="35" />
+            <state relative-caret-position="163">
+              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCacheThreadPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestCacheThreadPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestScheduledThreadPoolExecutor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestScheduledThreadPoolExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#407#592#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#662#842#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -77,6 +69,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>B任务每5秒执行一次进入测试</find>
+      <find>executor</find>
+      <find>submit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,7 +96,6 @@
         <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/dao/DemoDao.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/mapper/demo/ProductTypeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/Resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/SeheduledDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/TaskDemo.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/spring-sechema.xml" />
@@ -123,10 +116,20 @@
         <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/timer/TimerIntervalDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TheadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestSingleThreadExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestFixedThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/MyThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestCacheThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestScheduledThreadPoolExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/servletDemo/MyServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestFixedThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/ThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/TestRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/TestCachedThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/CallableDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/ExecutorServerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/ExecutorServerTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/ExecutorServerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hmf/websocket/utils/newGrammar/DoubleColon.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -150,8 +153,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="28" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-61" />
+    <option name="y" value="37" />
     <option name="width" value="1585" />
     <option name="height" value="867" />
   </component>
@@ -172,7 +176,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,51 +218,11 @@
               <item name="websocket" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -272,8 +235,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="dispatcherServlet&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hmf.websocket.utils.thread.demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hmf1\java\vr4\websocket\src\main\Resources" />
       <recent name="C:\Users\hmf1\java\vr4\websocket\src\main\Resources\mapper\demo" />
@@ -292,15 +259,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestScheduledThreadPoolExecutor">
-    <configuration name="TestCacheThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DoubleColon">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hmf.websocket.utils.thread.*" />
+          <option name="PATTERN" value="hmf.websocket.utils.thread.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.thread.TestCacheThreadPool" />
+      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.thread.demo.CallableDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -312,14 +279,14 @@
       <module name="websocket" />
       <envs />
     </configuration>
-    <configuration name="TestFixedThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleColon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hmf.websocket.utils.thread.*" />
+          <option name="PATTERN" value="hmf.websocket.utils.newGrammar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.thread.TestFixedThreadPool" />
+      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.newGrammar.DoubleColon" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -331,14 +298,14 @@
       <module name="websocket" />
       <envs />
     </configuration>
-    <configuration name="TestScheduledThreadPoolExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ExecutorServerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="hmf.websocket.utils.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.thread.TestScheduledThreadPoolExecutor" />
+      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.thread.ExecutorServerTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -350,14 +317,14 @@
       <module name="websocket" />
       <envs />
     </configuration>
-    <configuration name="TestSingleThreadExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ExecutorServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hmf.websocket.utils.thread.*" />
+          <option name="PATTERN" value="hmf.websocket.utils.thread.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.thread.TestSingleThreadExecutor" />
+      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.thread.demo.ExecutorServerTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -369,14 +336,14 @@
       <module name="websocket" />
       <envs />
     </configuration>
-    <configuration name="TimerIntervalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCachedThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hmf.websocket.utils.timer.*" />
+          <option name="PATTERN" value="hmf.websocket.utils.thread.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.timer.TimerIntervalDemo" />
+      <option name="MAIN_CLASS_NAME" value="hmf.websocket.utils.thread.demo.TestCachedThreadPool" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -603,19 +570,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.websocket" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TimerIntervalDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestSingleThreadExecutor" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestFixedThreadPool" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestCacheThreadPool" />
-      <item index="5" class="java.lang.String" itemvalue="Application.TestScheduledThreadPoolExecutor" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestCachedThreadPool" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CallableDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ExecutorServerTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ExecutorServerTest (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.DoubleColon" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestScheduledThreadPoolExecutor" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestCacheThreadPool" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestFixedThreadPool" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestSingleThreadExecutor" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TimerIntervalDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DoubleColon" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ExecutorServerTest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ExecutorServerTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CallableDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestCachedThreadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -638,16 +605,23 @@
       <workItem from="1526019777710" duration="3237000" />
       <workItem from="1526023490817" duration="65000" />
       <workItem from="1526023615479" duration="115000" />
-      <workItem from="1526023741215" duration="2713000" />
+      <workItem from="1526023741215" duration="3308000" />
+      <workItem from="1526261846192" duration="674000" />
+      <workItem from="1526521498580" duration="9267000" />
+      <workItem from="1526626789376" duration="1281000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="hmf_websocket_utils_thread_demo_in_websocket - 2018.05.17 at 10h 40m 25s.xml">
+      <configuration name="hmf.websocket.utils.thread.demo in websocket" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22250000" />
+    <option name="totallyTimeSpent" value="34067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-61" y="37" width="1585" height="867" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -657,22 +631,22 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24976167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24935733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21927375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4237762" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23796034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25454545" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25034964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20437019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22032787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -693,149 +667,31 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/ThreadPoolDemo.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/ThreadPoolDemo.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/ExecutorServerTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/schedual/MyTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/schedual/TaskB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/service/TaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/schedual/TaskA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/schedual/MyTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/service/TaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/TaskTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/websocket.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="57" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/WebSocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/websocket.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="57" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -868,14 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,9 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,7 +808,7 @@
         <state relative-caret-position="266">
           <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -973,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,61 +854,254 @@
         <state relative-caret-position="175">
           <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/cn.hmf:websocket:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>cn.hmf:websocket:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.hmf:websocket:1.0-SNAPSHOT</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">javax:javaee-api:jar:7.0</node>
+            <node x="" y="">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0</node>
+            <node x="" y="">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0/javax.activation:activation:jar:1.1</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.9.RELEASE/org.springframework:spring-aop:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.9.RELEASE/org.springframework:spring-beans:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.9.RELEASE/org.springframework:spring-context:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.9.RELEASE/org.springframework:spring-core:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.9.RELEASE/org.springframework:spring-core:jar:4.3.9.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.9.RELEASE/org.springframework:spring-expression:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.9.RELEASE/org.springframework:spring-web:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.postgresql:postgresql:jar:9.4-1203-jdbc42</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.23</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.23/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.23/com.alibaba:tools:jar:1.8.0</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.2.8</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.apache.logging.log4j:log4j-core:jar:2.7</node>
+            <node x="" y="">org.apache.logging.log4j:log4j-core:jar:2.7/org.apache.logging.log4j:log4j-api:jar:2.7</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.8.5</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-core:jar:2.8.5</node>
+            <node x="" y="">jstl:jstl:jar:1.2</node>
+            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.3</node>
+            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.3/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.3.2</node>
+            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.3.2/org.apache.shiro:shiro-core:jar:1.3.2</node>
+            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.3.2/org.apache.shiro:shiro-core:jar:1.3.2/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.3.2/org.apache.shiro:shiro-core:jar:1.3.2/commons-beanutils:commons-beanutils:jar:1.8.3</node>
+            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.3.2/org.apache.shiro:shiro-web:jar:1.3.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="782.0" y="546.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk1.8.0_152/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/servletDemo/MyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestCacheThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestFixedThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TheadPool.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="86" column="35" lean-forward="false" selection-start-line="84" selection-start-column="3" selection-end-line="86" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/ThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="86" column="35" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="86" selection-end-column="35" />
+          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/TestRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/TestCachedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="72" lean-forward="false" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/ExecutorServerTest2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/ExecutorServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="60" column="37" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#354#370#0" expanded="false" />
+            <element signature="e#1223#1224#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+            <element signature="e#1915#1916#0" expanded="false" />
+            <element signature="e#1945#1946#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/ExecutorServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/demo/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE.jar!/org/springframework/core/task/support/ExecutorServiceAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk1.8.0_152/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="235" column="22" lean-forward="false" selection-start-line="235" selection-start-column="22" selection-end-line="235" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk1.8.0_152/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-580">
+          <caret line="130" column="25" lean-forward="false" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestScheduledThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="e#662#842#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar!/org/springframework/scheduling/concurrent/ConcurrentTaskExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1506">
+          <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE.jar!/org/springframework/core/task/SyncTaskExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE.jar!/org/springframework/core/task/support/ConcurrentExecutorAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk1.8.0_152/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="139" column="13" lean-forward="false" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestSingleThreadExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="281">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/newGrammar/DoubleColon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestCacheThreadPool.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hmf/websocket/utils/thread/TestScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#407#592#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#662#842#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,6 +1144,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
